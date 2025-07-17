@@ -54,5 +54,6 @@ st.write("""
 Como plus y verificación de las fórmulas anteriores, se generó una visualización en Power BI con la base de datos entregada, demostrando el alcance de la información.
 """)
 
-st.image("BI_People.gif", caption="Visualización de KPIs en Power BI", use_column_width=True)
+st.image("BI_People.gif", caption="Visualización de KPIs en Power BI", use_container_width=True)
+
 
