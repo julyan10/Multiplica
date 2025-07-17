@@ -4,9 +4,6 @@ import streamlit as st
 # Título principal
 st.title("📊 Propuesta: Human Resources Data Analyst – Multiplica")
 
-# Mostrar el GIF del tablero
-st.image("BI_People.gif", caption="Dashboard de Power BI – Gestión de People", use_column_width=True)
-
 # Sección: Objetivos
 st.header("🎯 Objetivos como líder del proceso")
 st.markdown("""
@@ -49,4 +46,13 @@ st.markdown("""
 **💡 Relevancia:** Brinda al Chief People Officer y al Employee Experience Lead un indicador claro sobre la estabilidad del talento y la eficacia de las iniciativas de cultura y experiencia.  
 **🚀 Acción concreta:** Si el tiempo promedio de permanencia es menor a un año, se deberán implementar entrevistas de permanencia y fortalecer los procesos de acompañamiento a nuevos ingresos.
 """)
+
+# Sección final: Visualización Power BI
+st.header("📊 Visualización en Power BI")
+
+st.write("""
+Como plus y verificación de las fórmulas anteriores, se generó una visualización en Power BI con la base de datos entregada, demostrando el alcance de la información.
+""")
+
+st.image("BI_People.gif", caption="Visualización de KPIs en Power BI", use_column_width=True)
 
