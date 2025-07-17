@@ -4,12 +4,6 @@ import streamlit as st
 # Título principal
 st.title("Propuesta: Human Resources Data Analyst – Multiplica")
 
-# Sección: Propuesta general
-st.header("Propuesta")
-st.write("""
-Como líder del proceso, implementaría un sistema integral de validación y corrección de datos centrado en garantizar la calidad, trazabilidad y utilidad de la información de People. Al revisar la base se evidencian datos incorrectos como campos vacíos en fechas de ingreso y baja, ubicación de trabajo o costos anuales; uso de valores como “No encontrado”; inconsistencias en formatos de fechas y meses escritos en texto libre; y duplicidad de campos como centro de trabajo, lo que genera errores al momento de consolidar o analizar. Frente a esto, las People Managers deberán validar mensualmente la información crítica, estandarizar los valores según una guía definida, realizar correcciones directamente en el HRIS para mantener la trazabilidad, y asumir la responsabilidad regional del control de calidad. Además, propondría, si la herramienta lo permite, crear reglas dentro del HRIS que obliguen el ingreso de valores válidos y establezcan formatos predeterminados para evitar errores desde el origen. Una vez realizado este proceso, comunicaría a los líderes y stakeholders que la base de datos ha sido depurada y estandarizada, lo que permite contar con información confiable, oportuna y lista para apoyar decisiones estratégicas sobre talento, operaciones y finanzas, fortaleciendo así una cultura organizacional basada en datos y poniendo siempre a las personas en el centro.
-""")
-
 # Sección: Objetivos
 st.header("Objetivos como líder del proceso")
 st.markdown("""
