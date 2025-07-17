@@ -51,7 +51,7 @@ st.markdown("""
 st.header("📊 Visualización en Power BI")
 
 st.write("""
-Como complemento a esta propuesta y para validar las fórmulas planteadas, se desarrolló una visualización ejecutiva en Power BI utilizando la base de datos entregada. Esta visualización demuestra el potencial de análisis que ofrece una estructura de datos limpia y estandarizada, permitiendo identificar rápidamente insights clave sobre rotación, costos y permanencia del talento.
+Como complemento a esta propuesta y para validar las fórmulas planteadas, se desarrolló una visualización en Power BI utilizando la base de datos entregada. Esta visualización demuestra el potencial de análisis que ofrece una estructura de datos limpia y estandarizada, permitiendo identificar rápidamente insights clave sobre rotación, costos y permanencia del talento.
 """)
 
 st.image("BI_People.gif", caption="Visualización de KPIs en Power BI", use_container_width=True)
